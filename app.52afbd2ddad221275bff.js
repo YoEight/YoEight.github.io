@@ -19541,15 +19541,15 @@ webpackJsonp([0],[
 	
 	var _Home2 = _interopRequireDefault(_Home);
 	
-	var _Counter = __webpack_require__(384);
+	var _Counter = __webpack_require__(385);
 	
 	var _Counter2 = _interopRequireDefault(_Counter);
 	
-	var _Post = __webpack_require__(402);
+	var _Post = __webpack_require__(403);
 	
 	var _Post2 = _interopRequireDefault(_Post);
 	
-	var _About = __webpack_require__(413);
+	var _About = __webpack_require__(414);
 	
 	var _About2 = _interopRequireDefault(_About);
 	
@@ -19680,7 +19680,7 @@ webpackJsonp([0],[
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'copyright text-muted' },
-	              'Copyright \xA9 Yorick Laupa 2016'
+	              'Copyright \xA9 Yorick Laupa 2017'
 	            )
 	          )
 	        )
@@ -20113,7 +20113,8 @@ webpackJsonp([0],[
 /* 381 */,
 /* 382 */,
 /* 383 */,
-/* 384 */
+/* 384 */,
+/* 385 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20134,8 +20135,8 @@ webpackJsonp([0],[
 	      __webpack_require__.e/* nsure */(2, function (require) {
 	        /*  Webpack - use require callback to define
 	            dependencies for bundling   */
-	        var Counter = __webpack_require__(385).default;
-	        var reducer = __webpack_require__(386).default;
+	        var Counter = __webpack_require__(386).default;
+	        var reducer = __webpack_require__(387).default;
 	
 	        /*  Add the reducer to the store on key 'counter'  */
 	        (0, _reducers.injectReducer)(store, { key: 'counter', reducer: reducer });
@@ -20150,7 +20151,6 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 385 */,
 /* 386 */,
 /* 387 */,
 /* 388 */,
@@ -20167,7 +20167,8 @@ webpackJsonp([0],[
 /* 399 */,
 /* 400 */,
 /* 401 */,
-/* 402 */
+/* 402 */,
+/* 403 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20184,8 +20185,8 @@ webpackJsonp([0],[
 	
 	    getComponent: function getComponent(nextState, cb) {
 	      __webpack_require__.e/* nsure */(3, function (require) {
-	        var Post = __webpack_require__(403).default;
-	        var reducer = __webpack_require__(404).default;
+	        var Post = __webpack_require__(404).default;
+	        var reducer = __webpack_require__(405).default;
 	
 	        (0, _reducers.injectReducer)(store, { key: 'post', reducer: reducer });
 	
@@ -20196,7 +20197,6 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 403 */,
 /* 404 */,
 /* 405 */,
 /* 406 */,
@@ -20206,7 +20206,8 @@ webpackJsonp([0],[
 /* 410 */,
 /* 411 */,
 /* 412 */,
-/* 413 */
+/* 413 */,
+/* 414 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20215,7 +20216,7 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _AboutView = __webpack_require__(414);
+	var _AboutView = __webpack_require__(415);
 	
 	var _AboutView2 = _interopRequireDefault(_AboutView);
 	
@@ -20227,7 +20228,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 414 */
+/* 415 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20264,4 +20265,4 @@ webpackJsonp([0],[
 
 /***/ }
 ]);
-//# sourceMappingURL=app.d079311eeb9d85cf9387.js.map
+//# sourceMappingURL=app.52afbd2ddad221275bff.js.map
